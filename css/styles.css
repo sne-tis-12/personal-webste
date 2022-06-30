@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; }
+
+.heading {
+  background-image: linear-gradient(to bottom, #fbf3e4, #F8FBE4);
+  height: 90vh;
+  text-align: center; }
+  .heading-title {
+    font-family: "Send Flowers", cursive;
+    font-size: 5rem;
+    color: #b91646;
+    line-height: 1;
+    margin: 0; }
+  .heading-description {
+    font-family: "Bebas Neue", cursive;
+    font-size: 5rem;
+    color: #000;
+    line-height: 1;
+    margin: 0; }
+  .heading-introduction {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)); }
+    .heading-introduction p {
+      margin: 0; }
+
+.primary-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300; }
+  .primary-font--light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100; }
+  .primary-font--dark {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; }
+  .primary-font--darkest {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700; }
+
+.secondary-font {
+  font-family: "Bebas Neue", cursive; }
+
+.creative-font {
+  font-family: "Send Flowers", cursive; }
+  .creative-font--red {
+    color: #b91646; }
+
+.about-me {
+  background-image: linear-gradient(to bottom, #fbf3e4, #F8FBE4);
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 10rem; }
+  .about-me--text {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: -3px; }
+  .about-me-column {
+    background-color: #FBE8E4;
+    text-align: center; }
+
+.education--div {
+  margin: 0 2px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding-top: 1rem;
+  margin-bottom: 1rem; }
+
+.proj-res {
+  height: auto;
+  background-image: linear-gradient(to bottom, #F8FBE4, #fbf3e4);
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 10rem; }
+  .proj-res--card {
+    box-sizing: content-box;
+    margin: 2rem;
+    height: 30rem; }
+    .proj-res--card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+  .proj-res--title {
+    display: inline-block;
+    font-size: 5rem;
+    line-height: 0.8; }
+
+.modal-btn {
+  display: block; }
+
+.books {
+  background-image: linear-gradient(to bottom, #F8FBE4, #fbf3e4);
+  text-align: center;
+  padding-top: 8rem; }
+  .books-title {
+    font-size: 5rem;
+    line-height: 0.6; }
+  .books-img {
+    width: 100%;
+    height: 330px; }
+
+.contact-me {
+  background-image: linear-gradient(to bottom, #fbf3e4, #F8FBE4);
+  padding-top: 5rem; }
+
+i {
+  font-size: 2rem; }
