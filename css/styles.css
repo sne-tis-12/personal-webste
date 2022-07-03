@@ -11,11 +11,11 @@ body {
   font-family: "Poppins", sans-serif; }
 
 .heading {
-  background-image: linear-gradient(to bottom, #fbf3e4, #F8FBE4);
+  background-image: linear-gradient(to bottom, #F8FBE4,#92F7F0);
   height: 90vh;
   text-align: center; }
   .heading-title {
-    font-family: "Send Flowers", cursive;
+    font-family: 'Indie Flower', cursive;
     font-size: 5rem;
     color: #b91646;
     line-height: 1;
@@ -54,12 +54,12 @@ body {
   font-family: "Bebas Neue", cursive; }
 
 .creative-font {
-  font-family: "Send Flowers", cursive; }
+  font-family: 'Sacramento', cursive; }
   .creative-font--red {
     color: #b91646; }
 
 .about-me {
-  background-image: linear-gradient(to bottom, #fbf3e4, #F8FBE4);
+  background-image: linear-gradient(to bottom, #F8FBE4,#92F7F0);
   height: auto;
   padding-top: 5rem;
   padding-bottom: 10rem; }
@@ -80,7 +80,7 @@ body {
 
 .proj-res {
   height: auto;
-  background-image: linear-gradient(to bottom, #F8FBE4, #fbf3e4);
+  background-image: linear-gradient(to bottom, #92F7F0, #F8FBE4);
   text-align: center;
   padding-top: 5rem;
   padding-bottom: 10rem; }
@@ -101,7 +101,7 @@ body {
   display: block; }
 
 .books {
-  background-image: linear-gradient(to bottom, #F8FBE4, #fbf3e4);
+  background-image: linear-gradient(to bottom, #92F7F0, #F8FBE4);
   text-align: center;
   padding-top: 8rem; }
   .books-title {
